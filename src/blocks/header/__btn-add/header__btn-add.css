@@ -1,0 +1,25 @@
+.header__btn-add {
+  align-items: center;
+  padding: 12px 58px 12px 24px;
+  width: 185px;
+  height: 55px;
+  background-image: url("../../../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+  background-color: #00AF66;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+.header__btn-add:hover {
+  opacity: 80%;
+}

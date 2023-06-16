@@ -1,0 +1,9 @@
+.header__btn-profile_avatar {
+  display: block;
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}

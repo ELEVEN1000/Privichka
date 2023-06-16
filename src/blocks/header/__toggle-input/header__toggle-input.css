@@ -1,0 +1,11 @@
+.header__toggle-input {
+  display: none;
+}
+
+.header__toggle-input:checked + .header__toggle-label{
+  color: #fff;
+}
+
+.header__toggle-input_move:checked ~ .header__toggle-switcher {
+  left: 140px;
+}

@@ -1,0 +1,27 @@
+.header__btn-profile {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  width: 153px;
+  height: 55px;
+  background: #F5F2E5;
+  border: none;
+  outline: 0;
+  border-radius: 100px;
+  cursor: pointer;
+  align-items: center;
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #494949;
+  transition: outline 0.2s ease-in-out;
+}
+.header__btn-profile:hover {
+  outline: 1px solid #00AF66;
+  outline-offset: -1px;
+}

@@ -1,0 +1,30 @@
+.greetings {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.greetings__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #494949;
+  opacity: 0.7;
+}
+.greetings__date {
+  margin: 0;
+  padding-top: 16px;
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 130%;
+  color: #121212;
+}

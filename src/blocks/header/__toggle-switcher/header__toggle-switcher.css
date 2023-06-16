@@ -1,0 +1,15 @@
+.header__toggle-switcher {
+  border: none;
+  position: absolute;
+  height: 51px;
+  width: 119px;
+  font-size: 12px;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: #00AF66;
+  border-radius: 30px;
+  left: 5px;
+  top: 4px;
+  transition: left 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: transform;
+}

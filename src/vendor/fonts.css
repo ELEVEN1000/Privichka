@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Circe';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("circle/Circe-Regular.woff2") format("woff2"),
+       url("circle/Circe-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Circe';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("circle/Circe-Bold.woff2") format("woff2"),
+  url("circle/Circe-Bold.woff") format("woff");
+}

@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/root/root.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/__toggle/header__toggle.css);
+@import url(./blocks/header/__toggle-label/header__toggle-label.css);
+@import url(./blocks/header/__toggle-label/_day/header__toggle-label_day.css);
+@import url(./blocks/header/__toggle-label/_week/header__toggle-label_week.css);
+@import url(./blocks/header/__toggle-input/header__toggle-input.css);
+@import url(./blocks/header/__toggle-switcher/header__toggle-switcher.css);
+@import url(./blocks/header/__btn-add/header__btn-add.css);
+@import url(./blocks/header/__items/header__items.css);
+@import url(./blocks/header/__btn-profile/header__btn-profile.css);
+@import url(./blocks/header/__btn-profile/_avatar/header__btn-profile_avatar.css);
+@import url(./blocks/greetings/greetings.css);

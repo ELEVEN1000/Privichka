@@ -1,0 +1,14 @@
+.header__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 51px;
+  padding: 4px;
+  background: #F5F2E5;
+  width: 256px;
+  border-radius: 30px;
+  position: relative;
+  margin: 0;
+}
+
+
